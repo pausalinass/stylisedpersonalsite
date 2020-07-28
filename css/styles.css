@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 5.625rem;
+  margin:50px auto 0 auto;
+  font-family: 'Poppins', sans-serif;
+  color: #66BFBF;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-weight: bolder;
+}
+.footer-link {
+  color: #11999E;
+}
+.skill-row {
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2;
+}
+.developer {
+  width: 25%;
+  float: left;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
+.cooking-skill {
+  width: 25%;
+  float: right;
+  padding-left: 30px;
+  padding-bottom: 50px;
+}
+hr {
+  border-style: none;
+  border-top-style:dotted;
+  border-color: grey;
+  border-width: 5px;
+  width:5%;
+}
+.contact-me {
+margin: 50px auto 50px auto;
+}
+.button {
+	background-color:#66bfbf;
+	border-radius:20px;
+	border:1px solid #66bfbf;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 31px;
+	text-decoration:none;
+}
+.button:hover {
+	background-color:#7ed6d6;
+}
+.button:active {
+	position:relative;
+	top:1px;
+}
+.top-container {
+  background-color: #ddf3f5;
+  position: relative;
+  padding-top: 100px;
+}
+a {
+  color: #11999E;
+  text-decoration: none;
+  display: inline-block;
+  padding: 18px;
+}
+.bottom-container {
+background-color:#66BFBF;
+color: #EAF6F6;
+}
+.bottom-cloud {
+  position: absolute;
+  left:300px;
+  bottom:300px;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top:50px;
+}
+.profile img{
+  border-radius: 50%;
+}
