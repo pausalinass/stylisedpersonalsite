@@ -1,4 +1,5 @@
 body{
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -14,20 +15,40 @@ h2{
   font-size: 2.5rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 h3 {
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
   font-weight: bolder;
 }
-.footer-link {
+p {
+  line-height: 2;
+}
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a {
   color: #11999E;
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover {
+color:#ddf3f5;
+}
+.intro {
+  width: 30%;
+  margin: auto;
 }
 .skill-row {
 width: 50%;
 margin: 100px auto 100px auto;
 text-align: left;
-line-height: 2;
 }
 .developer {
   width: 25%;
@@ -41,16 +62,11 @@ line-height: 2;
   padding-left: 30px;
   padding-bottom: 50px;
 }
-hr {
-  border-style: none;
-  border-top-style:dotted;
-  border-color: grey;
-  border-width: 5px;
-  width:5%;
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px ;
 }
-.contact-me {
-margin: 50px auto 50px auto;
-}
+
 .button {
 	background-color:#66bfbf;
 	border-radius:20px;
@@ -58,7 +74,7 @@ margin: 50px auto 50px auto;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Trebuchet MS;
+	font-family: 'Montserrat', sans-serif;
 	font-size:17px;
 	font-weight:bold;
 	padding:16px 31px;
@@ -76,26 +92,28 @@ margin: 50px auto 50px auto;
   position: relative;
   padding-top: 100px;
 }
-a {
-  color: #11999E;
-  text-decoration: none;
-  display: inline-block;
-  padding: 18px;
+.middle-container {
+  margin: 100px 0;
 }
 .bottom-container {
 background-color:#66BFBF;
-color: #EAF6F6;
+padding: 50px 0 20px;
+}
+.owner {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 .bottom-cloud {
   position: absolute;
-  left:300px;
+  left:250px;
   bottom:300px;
 }
 .top-cloud {
   position: absolute;
   right: 300px;
-  top:50px;
+  top:40px;
 }
 .profile img{
-  border-radius: 50%;
+  border-radius: 90%;
 }
